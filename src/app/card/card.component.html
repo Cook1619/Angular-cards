@@ -1,20 +1,20 @@
 <div class="card">
   <div class="card-img">
     <figure class="img is-4by3">
-      <img src="assets/tree.jpeg" alt="picture of a tree" />
+      <img [src]="img" alt="image of card" />
     </figure>
   </div>
   <div class="card-content">
     <div class="media-content">
       <p class="title is-4">
-        Neat tree
+        {{ title }}
       </p>
       <p class="subtitle is-6">
-        @nature
+        {{ userName }}
       </p>
     </div>
     <div class="content">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, accusantium?
+      {{ content }}
     </div>
   </div>
 </div>
